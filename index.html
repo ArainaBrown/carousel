@@ -1,62 +1,83 @@
 <!DOCTYPE html>
 
- <html>
+<html>
 
-  <head>
+	<head>
 
-   <title> Carousel</title>
+		<title>Twitter Bootstrap Carousel</title>
 
-    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
 
-  </head>
+		<script src="jquery-2.0.3.js"></script>
 
-  <body>
+		<script src="bootstrap.js"></script>
 
-  <div class="page-header">
+	</head>
+	<body>
 
-  <h1>About < </small></h1>
+	    <div class="container">
 
+		<div class="navbar">
 
-  </div>
+			<div class="navbar-inner">
+a class="brand" href="http://getbootstrap.com/2.3.2/javascript.html#carousel">Twitter Bootstrap Carousel</a>
 
-   <div class="container">
+			</div>
 
-    <div class="navbar">
+		</div>
 
-     <div class="navbar-inner">
+		<div id="myCarousel" class="carousel slide">
 
+			<div class="carousel-inner">
 
-        
-       <ul class="nav">
+				<div class="item active">
 
+					<img src=>
 
+				</div>
 
-         <li><a href="home.html">about me</a></li>
+				<div class="item">
 
-         <li class="active"><a href="about.html">About html</a></li>
+					<img src="http://www.teamworkenglewood.org/uploads/teamworkenglewood/images/20130711_113051-001.jpg">
 
+				</div>
 
-         <li><a href="schedule.html">about css</a></li>
+				<div class="item">
 
+					<img src="http://www.teamworkenglewood.org/uploads/teamworkenglewood/images/dsc_0267.jpg">
 
-         <li><a href="pictures.html">about github</a></li>
+				</div>
 
-       </ul>
+				<div class="item">
 
- 
-      
-     </div>
+					<img src="http://www.teamworkenglewood.org/uploads/teamworkenglewood/images/dsc_0059.jpg">
 
+				</div>
 
-   
-    </div>
+				<div class="item">
 
+					<img src="http://www.teamworkenglewood.org/uploads/teamworkenglewood/images/dsc_0227.jpg">
 
-    
-  </div>
+				</div>
 
-  
- </body>
+			</div>
 
-</html>
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+
+				<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+
+		</div>
+
+		<script>
+			$(document).ready(function(){
+				$('.carousel').carousel();
+			});
+		</script>
+
+	  </div>
+
+	</body>
+	
+	<html>
+	 
 
